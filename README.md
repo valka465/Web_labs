@@ -3,7 +3,7 @@
 ![Главная](https://github.com/valka465/Web_labs/raw/master/screens/img0.JPG)
 Лабораторная работа №1:
 Сделаны несколько страниц и первый php файл, который выводит строку "Скажи мне, милый ребёнок: в каком ухе у меня жужжит?"
-![Лабораторная работа 1](https://github.com/valka465/Web_labs/raw/master/screens/img1.JPG)
+![Лабораторная работа 1](https://github.com/valka465/Web_labs/raw/master/screens/img1.1.JPG)
 Лабораторная работа №2:
 Рассмотрены GET и POST способы передачи информации между страницами. 
 ![Лабораторная работа 2](https://github.com/valka465/Web_labs/raw/master/screens/img2.1.JPG)
