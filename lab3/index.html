@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Делаем ссылкой кусочек текста</title>
+</head>
+<body style="background-image:url(../image/fon.jpg)">
+<div align="center"> 
+  <p><br><br><br> <div align="center"><font size="+2">Тестовая страница из первой работы</font></div></p>
+<br><br><br><b>Скажи мне, милый ребёнок: в каком ухе у меня жужжит?</b>
+<br><br><br>
+<p>В <a href="index.html">правом</a> или <a href="index.html">левом</a>?</p>
+</div>
+<br><br><br>
+
+  <html lang="en-US">
+<head>
+  <CENTER>
+
+  <br><h1><font color = Black >Свой вариант</h1>
+  <meta charset="utf-8">
+    <title>anketa</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+</head>
+    <div id="login">
+      <form name='form1'>
+        <span class="fontawesome-user"></span>
+          <input type="text" name='text1' id="user" placeholder="Ответ" >
+       
+        
+        <input type="submit" value="Отправить" onclick="return Check()">
+
+</form>
+
+<script type="text/javascript">
+
+function Check() {
+  var passw = "Обоих|обоих|Обоих ухах|обоих ухах";
+  var reg = new RegExp("^" + passw + "$");
+  if(reg.test(document.form1.text1.value)) {   
+    document.location.href = "index.html";
+  } else {   
+    document.location.href = "index.html";
+  } 
+  return false;
+} 
+</script>  
+<p><a href="index.php">Нажмите для подсчета тега p</a></p>
+</body>
+</html>
